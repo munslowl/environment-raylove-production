@@ -6,7 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "change-me"
+    DEPLOY_NAMESPACE = "lm-namespace-production"
   }
   stages {
     stage('Validate Environment') {
